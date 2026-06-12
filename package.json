@@ -5,6 +5,14 @@
   "keywords": ["expo", "cloudflare", "tunnel", "cloudflared", "ngrok"],
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crowsstack/expo-cloudflared-tunnel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crowsstack/expo-cloudflared-tunnel/issues"
+  },
+  "homepage": "https://github.com/crowsstack/expo-cloudflared-tunnel#readme",
   "bin": {
     "expo-tunnel": "bin/expo-tunnel.mjs"
   },

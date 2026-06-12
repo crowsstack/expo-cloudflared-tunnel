@@ -2,6 +2,9 @@
 
 Replace `@expo/ngrok` with `cloudflared` tunnel for Expo dev builds.
 
+[![npm](https://img.shields.io/npm/v/expo-cloudflare-tunnel)](https://www.npmjs.com/package/expo-cloudflare-tunnel)
+[![GitHub](https://img.shields.io/badge/github-crowsstack/expo--cloudflared--tunnel-blue)](https://github.com/crowsstack/expo-cloudflared-tunnel)
+
 ## Install
 
 ```bash
@@ -38,3 +41,7 @@ import { connect, disconnect, kill, getUrl } from 'expo-cloudflare-tunnel'
 import { patch } from 'expo-cloudflare-tunnel/patch'
 await patch(projectRoot)
 ```
+
+---
+
+[npm](https://www.npmjs.com/package/expo-cloudflare-tunnel) · [GitHub](https://github.com/crowsstack/expo-cloudflared-tunnel)
