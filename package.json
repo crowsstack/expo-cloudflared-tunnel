@@ -1,8 +1,14 @@
 {
   "name": "expo-cloudflare-tunnel",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Replace @expo/ngrok with cloudflared tunnel for Expo dev builds",
-  "keywords": ["expo", "cloudflare", "tunnel", "cloudflared", "ngrok"],
+  "keywords": [
+    "expo",
+    "cloudflare",
+    "tunnel",
+    "cloudflared",
+    "ngrok"
+  ],
   "license": "MIT",
   "type": "module",
   "repository": {

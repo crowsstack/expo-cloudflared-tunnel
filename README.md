@@ -42,6 +42,18 @@ import { patch } from 'expo-cloudflare-tunnel/patch'
 await patch(projectRoot)
 ```
 
+## Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork** the repo on GitHub
+2. Create a **feature branch** (`git checkout -b feature/my-change`)
+3. **Commit** your changes (`git commit -am 'Add my change'`)
+4. **Push** to the branch (`git push origin feature/my-change`)
+5. Open a **Pull Request**
+
+Check the [issues](https://github.com/crowsstack/expo-cloudflared-tunnel/issues) page for open tasks or suggest a new one.
+
 ---
 
 [npm](https://www.npmjs.com/package/expo-cloudflare-tunnel) · [GitHub](https://github.com/crowsstack/expo-cloudflared-tunnel)
