@@ -1,0 +1,7 @@
+{
+  "name": "@expo/ngrok",
+  "version": "0.0.0-cloudflared",
+  "description": "Provided by expo-cloudflare-tunnel — cloudflared tunnel",
+  "main": "index.js",
+  "private": true
+}

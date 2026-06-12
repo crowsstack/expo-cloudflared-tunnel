@@ -1,0 +1,27 @@
+{
+  "name": "expo-cloudflare-tunnel",
+  "version": "0.3.0",
+  "description": "Replace @expo/ngrok with cloudflared tunnel for Expo dev builds",
+  "keywords": ["expo", "cloudflare", "tunnel", "cloudflared", "ngrok"],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "expo-tunnel": "bin/expo-tunnel.mjs"
+  },
+  "exports": {
+    ".": "./src/tunnel.mjs",
+    "./patch": "./src/patch.mjs"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "scripts/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
